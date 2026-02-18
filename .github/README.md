@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudhsm-v2`](https://www.npmjs.com/package/@aws-sdk/client-cloudhsm-v2/v/3.87.0).
+[`@aws-sdk/client-cloudhsm-v2`](https://www.npmjs.com/package/@aws-sdk/client-cloudhsm-v2/v/3.92.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.87.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.92.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-NW58M2H27Ofsz0k+JTfMVvtgv+7OLApFHKWE3ufw1Nc0W1l3jBvrjAYBRvktNwCy
+sha384-2g9C6x8B9tfy03v2LJ68F8BeuIGQpXNW6cq/q80tfblv0NZsOATPfu4VPPq0KRk7
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudhsm-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.87.0/index.min.mjs"
+            "@aws-sdk/client-cloudhsm-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.92.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.87.0/index.min.mjs": "sha384-NW58M2H27Ofsz0k+JTfMVvtgv+7OLApFHKWE3ufw1Nc0W1l3jBvrjAYBRvktNwCy"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.92.0/index.min.mjs": "sha384-2g9C6x8B9tfy03v2LJ68F8BeuIGQpXNW6cq/q80tfblv0NZsOATPfu4VPPq0KRk7"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudhsm-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.87.0/index.min.mjs"
+                        "@aws-sdk/client-cloudhsm-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.92.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.87.0/index.min.mjs": "sha384-NW58M2H27Ofsz0k+JTfMVvtgv+7OLApFHKWE3ufw1Nc0W1l3jBvrjAYBRvktNwCy"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudhsm-v2@3.92.0/index.min.mjs": "sha384-2g9C6x8B9tfy03v2LJ68F8BeuIGQpXNW6cq/q80tfblv0NZsOATPfu4VPPq0KRk7"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.87.0`)
+* Always pin to a specific version (`@3.92.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudhsm-v2/blob/refs/tags/3.87.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudhsm-v2/blob/refs/tags/3.92.0/LICENSE
 ```
 
 ---
